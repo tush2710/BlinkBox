@@ -1,0 +1,28 @@
+{
+  "" : {
+    "diagnostics" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests-master.dia",
+    "emit-module-dependencies" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests-master-emit-module.dia",
+    "swift-dependencies" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests-master.swiftdeps"
+  },
+  "/Users/tusharzade/Desktop/VasundharaTask/VasundharaTaskUITests/VasundharaTaskUITests.swift" : {
+    "const-values" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests.swiftconstvalues",
+    "dependencies" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests.d",
+    "diagnostics" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests.dia",
+    "index-unit-output-path" : "/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests.o",
+    "llvm-bc" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests.bc",
+    "object" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests.o",
+    "swift-dependencies" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests.swiftdeps",
+    "swiftmodule" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITests~partial.swiftmodule"
+  },
+  "/Users/tusharzade/Desktop/VasundharaTask/VasundharaTaskUITests/VasundharaTaskUITestsLaunchTests.swift" : {
+    "const-values" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITestsLaunchTests.swiftconstvalues",
+    "dependencies" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITestsLaunchTests.d",
+    "diagnostics" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITestsLaunchTests.dia",
+    "index-unit-output-path" : "/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITestsLaunchTests.o",
+    "llvm-bc" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITestsLaunchTests.bc",
+    "object" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITestsLaunchTests.o",
+    "swift-dependencies" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITestsLaunchTests.swiftdeps",
+    "swiftmodule" : "/Users/tusharzade/Desktop/VasundharaTask/build/VasundharaTask.build/Debug-iphonesimulator/VasundharaTaskUITests.build/Objects-normal/arm64/VasundharaTaskUITestsLaunchTests~partial.swiftmodule"
+  }
+}

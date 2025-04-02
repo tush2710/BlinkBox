@@ -1,0 +1,6 @@
+framework module Pods_VasundharaTask {
+  umbrella header "Pods-VasundharaTask-umbrella.h"
+
+  export *
+  module * { export * }
+}

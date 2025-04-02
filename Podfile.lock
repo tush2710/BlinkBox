@@ -1,0 +1,22 @@
+PODS:
+  - HCSStarRatingView (1.5)
+  - SDWebImage (5.17.0):
+    - SDWebImage/Core (= 5.17.0)
+  - SDWebImage/Core (5.17.0)
+
+DEPENDENCIES:
+  - HCSStarRatingView
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - HCSStarRatingView
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  SDWebImage: 750adf017a315a280c60fde706ab1e552a3ae4e9
+
+PODFILE CHECKSUM: 7075faa51da1fd6ee89eb48ed01497a23bbf6a77
+
+COCOAPODS: 1.16.2

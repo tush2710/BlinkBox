@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+Target 'VasundharaTask' in project 'VasundharaTask'
+➜ Implicit dependency on target 'Pods-VasundharaTask' in project 'Pods' via file 'Pods_VasundharaTask.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'HCSStarRatingView' in project 'Pods' via options '-framework HCSStarRatingView' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SDWebImage' in project 'Pods' via options '-framework SDWebImage' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-VasundharaTask' in project 'Pods'
+➜ Explicit dependency on target 'HCSStarRatingView' in project 'Pods'
+➜ Explicit dependency on target 'SDWebImage' in project 'Pods'
+Target 'SDWebImage' in project 'Pods' (no dependencies)
+Target 'HCSStarRatingView' in project 'Pods' (no dependencies)

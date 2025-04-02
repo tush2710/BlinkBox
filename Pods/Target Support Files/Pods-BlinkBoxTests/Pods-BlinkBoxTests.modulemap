@@ -1,0 +1,6 @@
+framework module Pods_BlinkBoxTests {
+  umbrella header "Pods-BlinkBoxTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

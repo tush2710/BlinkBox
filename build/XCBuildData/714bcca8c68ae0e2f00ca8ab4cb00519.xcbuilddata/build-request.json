@@ -1,0 +1,87 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42e1a581efc62d4a6a3f27cc7aef9aba5d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd4229b606f1b924ff1bb7e0c60ded5f2e1a"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42904169df0caa4479776ee843cc9081be"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42357b9f318ead2f78049bffbe9e198b50"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c46180aea4e87057640961e6db37df0d"
+    },
+    {
+      "guid" : "95c0949a132ed30651facec0fc02d47691d4a4da4b791809c349770fed40193e"
+    },
+    {
+      "guid" : "95c0949a132ed30651facec0fc02d4768c6a8d7c7ef63ad964ae882d753b65cc"
+    },
+    {
+      "guid" : "95c0949a132ed30651facec0fc02d47633c627d6b6da12f2ffaa695d98ed9320"
+    }
+  ],
+  "containerPath" : "/Users/tusharzade/Desktop/VasundharaTask/VasundharaTask.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/tusharzade/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/tusharzade/Library/Developer/Xcode/DerivedData/VasundharaTask-dwwslinvbqfjmoffodkcnmzmaweu/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/tusharzade/Library/Developer/Xcode/DerivedData/VasundharaTask-dwwslinvbqfjmoffodkcnmzmaweu/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone15,4",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.0",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone15,4",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "CLANG_COVERAGE_MAPPING" : "YES",
+          "CLANG_PROFILE_DATA_DIRECTORY" : "/Users/tusharzade/Library/Developer/Xcode/DerivedData/VasundharaTask-dwwslinvbqfjmoffodkcnmzmaweu/CodeCoverage/ProfileData",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "424948D0-E496-43B9-BF77-5B0310AC0533",
+          "TARGET_DEVICE_MODEL" : "iPhone15,4",
+          "TARGET_DEVICE_OS_VERSION" : "17.0",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

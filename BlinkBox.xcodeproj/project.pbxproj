@@ -1,0 +1,901 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F665D93850D518255B6722D /* Pods_BlinkBox_BlinkBoxUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63115F6448359B75ECCFC2F /* Pods_BlinkBox_BlinkBoxUITests.framework */; };
+		691EDD8309858F44CE0847B5 /* Pods_BlinkBoxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA2B7F3BF500F04518F38500 /* Pods_BlinkBoxTests.framework */; };
+		BD1EDD072B12131800CFB6FB /* BlinkVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EDD062B12131800CFB6FB /* BlinkVC.swift */; };
+		BD1EDD092B121AA600CFB6FB /* InputVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1EDD082B121AA600CFB6FB /* InputVC.swift */; };
+		BDE0584E2B11F4C500BB2A5C /* GamesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE0584D2B11F4C500BB2A5C /* GamesVC.swift */; };
+		BDE058502B11FC6B00BB2A5C /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE0584F2B11FC6A00BB2A5C /* GamesViewModel.swift */; };
+		BDE058522B11FC7E00BB2A5C /* GamesResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE058512B11FC7E00BB2A5C /* GamesResource.swift */; };
+		BDE058542B11FCA000BB2A5C /* HTTPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE058532B11FCA000BB2A5C /* HTTPUtility.swift */; };
+		BDE058562B11FE8500BB2A5C /* GamesModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE058552B11FE8500BB2A5C /* GamesModels.swift */; };
+		BDE058582B12090800BB2A5C /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE058572B12090800BB2A5C /* HeaderView.xib */; };
+		BDE0585A2B1209F500BB2A5C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE058592B1209F500BB2A5C /* HeaderView.swift */; };
+		BDF4CC922B11D7380046A6A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CC912B11D7380046A6A7 /* AppDelegate.swift */; };
+		BDF4CC942B11D7380046A6A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CC932B11D7380046A6A7 /* SceneDelegate.swift */; };
+		BDF4CC962B11D7380046A6A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CC952B11D7380046A6A7 /* ViewController.swift */; };
+		BDF4CC992B11D7380046A6A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF4CC972B11D7380046A6A7 /* Main.storyboard */; };
+		BDF4CC9C2B11D7380046A6A7 /* VasundharaTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CC9A2B11D7380046A6A7 /* VasundharaTask.xcdatamodeld */; };
+		BDF4CC9E2B11D7390046A6A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF4CC9D2B11D7390046A6A7 /* Assets.xcassets */; };
+		BDF4CCA12B11D7390046A6A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF4CC9F2B11D7390046A6A7 /* LaunchScreen.storyboard */; };
+		BDF4CCAC2B11D7390046A6A7 /* VasundharaTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CCAB2B11D7390046A6A7 /* VasundharaTaskTests.swift */; };
+		BDF4CCB62B11D7390046A6A7 /* VasundharaTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CCB52B11D7390046A6A7 /* VasundharaTaskUITests.swift */; };
+		BDF4CCB82B11D7390046A6A7 /* VasundharaTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF4CCB72B11D7390046A6A7 /* VasundharaTaskUITestsLaunchTests.swift */; };
+		BE4CEE2AD3C8301FA80EDFFA /* Pods_BlinkBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E47424D0CFC0619F41EB67E5 /* Pods_BlinkBox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF4CCA82B11D7390046A6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF4CC862B11D7380046A6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF4CC8D2B11D7380046A6A7;
+			remoteInfo = VasundharaTask;
+		};
+		BDF4CCB22B11D7390046A6A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF4CC862B11D7380046A6A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF4CC8D2B11D7380046A6A7;
+			remoteInfo = VasundharaTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293757C742627601795CA5D2 /* Pods-BlinkBoxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkBoxTests.release.xcconfig"; path = "Target Support Files/Pods-BlinkBoxTests/Pods-BlinkBoxTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DBABF3A8336EBCF03190322 /* Pods-BlinkBox-BlinkBoxUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkBox-BlinkBoxUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlinkBox-BlinkBoxUITests/Pods-BlinkBox-BlinkBoxUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D894473D22C0E646809FF0A /* Pods-BlinkBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkBox.release.xcconfig"; path = "Target Support Files/Pods-BlinkBox/Pods-BlinkBox.release.xcconfig"; sourceTree = "<group>"; };
+		BB6F12F430F3330F8E1D4C63 /* Pods-BlinkBox-BlinkBoxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkBox-BlinkBoxUITests.release.xcconfig"; path = "Target Support Files/Pods-BlinkBox-BlinkBoxUITests/Pods-BlinkBox-BlinkBoxUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BD1EDD062B12131800CFB6FB /* BlinkVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkVC.swift; sourceTree = "<group>"; };
+		BD1EDD082B121AA600CFB6FB /* InputVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputVC.swift; sourceTree = "<group>"; };
+		BDE0584D2B11F4C500BB2A5C /* GamesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesVC.swift; sourceTree = "<group>"; };
+		BDE0584F2B11FC6A00BB2A5C /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		BDE058512B11FC7E00BB2A5C /* GamesResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesResource.swift; sourceTree = "<group>"; };
+		BDE058532B11FCA000BB2A5C /* HTTPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtility.swift; sourceTree = "<group>"; };
+		BDE058552B11FE8500BB2A5C /* GamesModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesModels.swift; sourceTree = "<group>"; };
+		BDE058572B12090800BB2A5C /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		BDE058592B1209F500BB2A5C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		BDF4CC8E2B11D7380046A6A7 /* BlinkBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4CC912B11D7380046A6A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF4CC932B11D7380046A6A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDF4CC952B11D7380046A6A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDF4CC982B11D7380046A6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF4CC9B2B11D7380046A6A7 /* VasundharaTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VasundharaTask.xcdatamodel; sourceTree = "<group>"; };
+		BDF4CC9D2B11D7390046A6A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF4CCA02B11D7390046A6A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF4CCA22B11D7390046A6A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF4CCA72B11D7390046A6A7 /* BlinkBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4CCAB2B11D7390046A6A7 /* VasundharaTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasundharaTaskTests.swift; sourceTree = "<group>"; };
+		BDF4CCB12B11D7390046A6A7 /* BlinkBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF4CCB52B11D7390046A6A7 /* VasundharaTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasundharaTaskUITests.swift; sourceTree = "<group>"; };
+		BDF4CCB72B11D7390046A6A7 /* VasundharaTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VasundharaTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5BD134184005E2AA541D6B3 /* Pods-BlinkBoxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkBoxTests.debug.xcconfig"; path = "Target Support Files/Pods-BlinkBoxTests/Pods-BlinkBoxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4541470F27BD967B1B38DF /* Pods-BlinkBox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkBox.debug.xcconfig"; path = "Target Support Files/Pods-BlinkBox/Pods-BlinkBox.debug.xcconfig"; sourceTree = "<group>"; };
+		E47424D0CFC0619F41EB67E5 /* Pods_BlinkBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E63115F6448359B75ECCFC2F /* Pods_BlinkBox_BlinkBoxUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkBox_BlinkBoxUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2B7F3BF500F04518F38500 /* Pods_BlinkBoxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkBoxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF4CC8B2B11D7380046A6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE4CEE2AD3C8301FA80EDFFA /* Pods_BlinkBox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4CCA42B11D7390046A6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				691EDD8309858F44CE0847B5 /* Pods_BlinkBoxTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4CCAE2B11D7390046A6A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F665D93850D518255B6722D /* Pods_BlinkBox_BlinkBoxUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A712E5A45B0BF81BD61277AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC4541470F27BD967B1B38DF /* Pods-BlinkBox.debug.xcconfig */,
+				9D894473D22C0E646809FF0A /* Pods-BlinkBox.release.xcconfig */,
+				7DBABF3A8336EBCF03190322 /* Pods-BlinkBox-BlinkBoxUITests.debug.xcconfig */,
+				BB6F12F430F3330F8E1D4C63 /* Pods-BlinkBox-BlinkBoxUITests.release.xcconfig */,
+				D5BD134184005E2AA541D6B3 /* Pods-BlinkBoxTests.debug.xcconfig */,
+				293757C742627601795CA5D2 /* Pods-BlinkBoxTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD1EDD0A2B12288D00CFB6FB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BDE058512B11FC7E00BB2A5C /* GamesResource.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BD1EDD0B2B12289700CFB6FB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BDE058532B11FCA000BB2A5C /* HTTPUtility.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BD1EDD0C2B1228A600CFB6FB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDE0584F2B11FC6A00BB2A5C /* GamesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		BD1EDD0D2B1228AD00CFB6FB /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDE058552B11FE8500BB2A5C /* GamesModels.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		BD1EDD0E2B1228B800CFB6FB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC972B11D7380046A6A7 /* Main.storyboard */,
+				BDF4CC9F2B11D7390046A6A7 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		BD1EDD0F2B1228DF00CFB6FB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC952B11D7380046A6A7 /* ViewController.swift */,
+				BD1EDD062B12131800CFB6FB /* BlinkVC.swift */,
+				BD1EDD082B121AA600CFB6FB /* InputVC.swift */,
+				BDE0584D2B11F4C500BB2A5C /* GamesVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD1EDD102B1228FA00CFB6FB /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				BD1EDD112B12290200CFB6FB /* HeaderView */,
+			);
+			path = XIB;
+			sourceTree = "<group>";
+		};
+		BD1EDD112B12290200CFB6FB /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				BDE058572B12090800BB2A5C /* HeaderView.xib */,
+				BDE058592B1209F500BB2A5C /* HeaderView.swift */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		BD1EDD122B12291900CFB6FB /* SupportFilles */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC912B11D7380046A6A7 /* AppDelegate.swift */,
+				BDF4CC932B11D7380046A6A7 /* SceneDelegate.swift */,
+				BDF4CC9D2B11D7390046A6A7 /* Assets.xcassets */,
+			);
+			path = SupportFilles;
+			sourceTree = "<group>";
+		};
+		BD1EDD132B12294A00CFB6FB /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC9A2B11D7380046A6A7 /* VasundharaTask.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		BDF4CC852B11D7380046A6A7 = {
+			isa = PBXGroup;
+			children = (
+				BD1EDD132B12294A00CFB6FB /* CoreData */,
+				BD1EDD122B12291900CFB6FB /* SupportFilles */,
+				BD1EDD102B1228FA00CFB6FB /* XIB */,
+				BDF4CC902B11D7380046A6A7 /* BlinkBox */,
+				BDF4CCAA2B11D7390046A6A7 /* VasundharaTaskTests */,
+				BDF4CCB42B11D7390046A6A7 /* VasundharaTaskUITests */,
+				BDF4CC8F2B11D7380046A6A7 /* Products */,
+				A712E5A45B0BF81BD61277AB /* Pods */,
+				CA16F22DC9BC1D825DD14319 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF4CC8F2B11D7380046A6A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CC8E2B11D7380046A6A7 /* BlinkBox.app */,
+				BDF4CCA72B11D7390046A6A7 /* BlinkBoxTests.xctest */,
+				BDF4CCB12B11D7390046A6A7 /* BlinkBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF4CC902B11D7380046A6A7 /* BlinkBox */ = {
+			isa = PBXGroup;
+			children = (
+				BD1EDD0F2B1228DF00CFB6FB /* View */,
+				BD1EDD0E2B1228B800CFB6FB /* Storyboards */,
+				BD1EDD0D2B1228AD00CFB6FB /* DataModels */,
+				BD1EDD0C2B1228A600CFB6FB /* ViewModels */,
+				BD1EDD0B2B12289700CFB6FB /* Service */,
+				BD1EDD0A2B12288D00CFB6FB /* Resource */,
+				BDF4CCA22B11D7390046A6A7 /* Info.plist */,
+			);
+			path = BlinkBox;
+			sourceTree = "<group>";
+		};
+		BDF4CCAA2B11D7390046A6A7 /* VasundharaTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CCAB2B11D7390046A6A7 /* VasundharaTaskTests.swift */,
+			);
+			path = VasundharaTaskTests;
+			sourceTree = "<group>";
+		};
+		BDF4CCB42B11D7390046A6A7 /* VasundharaTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF4CCB52B11D7390046A6A7 /* VasundharaTaskUITests.swift */,
+				BDF4CCB72B11D7390046A6A7 /* VasundharaTaskUITestsLaunchTests.swift */,
+			);
+			path = VasundharaTaskUITests;
+			sourceTree = "<group>";
+		};
+		CA16F22DC9BC1D825DD14319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E47424D0CFC0619F41EB67E5 /* Pods_BlinkBox.framework */,
+				E63115F6448359B75ECCFC2F /* Pods_BlinkBox_BlinkBoxUITests.framework */,
+				EA2B7F3BF500F04518F38500 /* Pods_BlinkBoxTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF4CC8D2B11D7380046A6A7 /* BlinkBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4CCBB2B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "BlinkBox" */;
+			buildPhases = (
+				3ABD56FF6A7797F23F83F68C /* [CP] Check Pods Manifest.lock */,
+				BDF4CC8A2B11D7380046A6A7 /* Sources */,
+				BDF4CC8B2B11D7380046A6A7 /* Frameworks */,
+				BDF4CC8C2B11D7380046A6A7 /* Resources */,
+				6E0E28BA3FB066D00BDE182E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlinkBox;
+			productName = VasundharaTask;
+			productReference = BDF4CC8E2B11D7380046A6A7 /* BlinkBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF4CCA62B11D7390046A6A7 /* BlinkBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4CCBE2B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "BlinkBoxTests" */;
+			buildPhases = (
+				70E5BE8F4CC1E10E5D7076F2 /* [CP] Check Pods Manifest.lock */,
+				BDF4CCA32B11D7390046A6A7 /* Sources */,
+				BDF4CCA42B11D7390046A6A7 /* Frameworks */,
+				BDF4CCA52B11D7390046A6A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF4CCA92B11D7390046A6A7 /* PBXTargetDependency */,
+			);
+			name = BlinkBoxTests;
+			productName = VasundharaTaskTests;
+			productReference = BDF4CCA72B11D7390046A6A7 /* BlinkBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDF4CCB02B11D7390046A6A7 /* BlinkBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF4CCC12B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "BlinkBoxUITests" */;
+			buildPhases = (
+				BA9ECCCE3C63925386D97DF2 /* [CP] Check Pods Manifest.lock */,
+				BDF4CCAD2B11D7390046A6A7 /* Sources */,
+				BDF4CCAE2B11D7390046A6A7 /* Frameworks */,
+				BDF4CCAF2B11D7390046A6A7 /* Resources */,
+				5F8B83D3B3FD8F7D74FE1A18 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF4CCB32B11D7390046A6A7 /* PBXTargetDependency */,
+			);
+			name = BlinkBoxUITests;
+			productName = VasundharaTaskUITests;
+			productReference = BDF4CCB12B11D7390046A6A7 /* BlinkBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF4CC862B11D7380046A6A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BDF4CC8D2B11D7380046A6A7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					BDF4CCA62B11D7390046A6A7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BDF4CC8D2B11D7380046A6A7;
+					};
+					BDF4CCB02B11D7390046A6A7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = BDF4CC8D2B11D7380046A6A7;
+					};
+				};
+			};
+			buildConfigurationList = BDF4CC892B11D7380046A6A7 /* Build configuration list for PBXProject "BlinkBox" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF4CC852B11D7380046A6A7;
+			productRefGroup = BDF4CC8F2B11D7380046A6A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF4CC8D2B11D7380046A6A7 /* BlinkBox */,
+				BDF4CCA62B11D7390046A6A7 /* BlinkBoxTests */,
+				BDF4CCB02B11D7390046A6A7 /* BlinkBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF4CC8C2B11D7380046A6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4CCA12B11D7390046A6A7 /* LaunchScreen.storyboard in Resources */,
+				BDF4CC9E2B11D7390046A6A7 /* Assets.xcassets in Resources */,
+				BDF4CC992B11D7380046A6A7 /* Main.storyboard in Resources */,
+				BDE058582B12090800BB2A5C /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4CCA52B11D7390046A6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4CCAF2B11D7390046A6A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3ABD56FF6A7797F23F83F68C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinkBox-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F8B83D3B3FD8F7D74FE1A18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinkBox-BlinkBoxUITests/Pods-BlinkBox-BlinkBoxUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinkBox-BlinkBoxUITests/Pods-BlinkBox-BlinkBoxUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlinkBox-BlinkBoxUITests/Pods-BlinkBox-BlinkBoxUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E0E28BA3FB066D00BDE182E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinkBox/Pods-BlinkBox-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinkBox/Pods-BlinkBox-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlinkBox/Pods-BlinkBox-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E5BE8F4CC1E10E5D7076F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinkBoxTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9ECCCE3C63925386D97DF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinkBox-BlinkBoxUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF4CC8A2B11D7380046A6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE058542B11FCA000BB2A5C /* HTTPUtility.swift in Sources */,
+				BDF4CC962B11D7380046A6A7 /* ViewController.swift in Sources */,
+				BDF4CC922B11D7380046A6A7 /* AppDelegate.swift in Sources */,
+				BDE058502B11FC6B00BB2A5C /* GamesViewModel.swift in Sources */,
+				BDE058562B11FE8500BB2A5C /* GamesModels.swift in Sources */,
+				BD1EDD092B121AA600CFB6FB /* InputVC.swift in Sources */,
+				BDE0585A2B1209F500BB2A5C /* HeaderView.swift in Sources */,
+				BDF4CC942B11D7380046A6A7 /* SceneDelegate.swift in Sources */,
+				BDE058522B11FC7E00BB2A5C /* GamesResource.swift in Sources */,
+				BDF4CC9C2B11D7380046A6A7 /* VasundharaTask.xcdatamodeld in Sources */,
+				BD1EDD072B12131800CFB6FB /* BlinkVC.swift in Sources */,
+				BDE0584E2B11F4C500BB2A5C /* GamesVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4CCA32B11D7390046A6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4CCAC2B11D7390046A6A7 /* VasundharaTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF4CCAD2B11D7390046A6A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF4CCB82B11D7390046A6A7 /* VasundharaTaskUITestsLaunchTests.swift in Sources */,
+				BDF4CCB62B11D7390046A6A7 /* VasundharaTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF4CCA92B11D7390046A6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF4CC8D2B11D7380046A6A7 /* BlinkBox */;
+			targetProxy = BDF4CCA82B11D7390046A6A7 /* PBXContainerItemProxy */;
+		};
+		BDF4CCB32B11D7390046A6A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF4CC8D2B11D7380046A6A7 /* BlinkBox */;
+			targetProxy = BDF4CCB22B11D7390046A6A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF4CC972B11D7380046A6A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF4CC982B11D7380046A6A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF4CC9F2B11D7390046A6A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF4CCA02B11D7390046A6A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF4CCB92B11D7390046A6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDF4CCBA2B11D7390046A6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF4CCBC2B11D7390046A6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC4541470F27BD967B1B38DF /* Pods-BlinkBox.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9AMGXAM7V;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlinkBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tushar.BlinkBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF4CCBD2B11D7390046A6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D894473D22C0E646809FF0A /* Pods-BlinkBox.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9AMGXAM7V;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BlinkBox/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tushar.BlinkBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDF4CCBF2B11D7390046A6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5BD134184005E2AA541D6B3 /* Pods-BlinkBoxTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9AMGXAM7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tushar.BlinkBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlinkBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlinkBox";
+			};
+			name = Debug;
+		};
+		BDF4CCC02B11D7390046A6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293757C742627601795CA5D2 /* Pods-BlinkBoxTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9AMGXAM7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tushar.BlinkBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlinkBox.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlinkBox";
+			};
+			name = Release;
+		};
+		BDF4CCC22B11D7390046A6A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DBABF3A8336EBCF03190322 /* Pods-BlinkBox-BlinkBoxUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9AMGXAM7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tushar.BlinkBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlinkBox;
+			};
+			name = Debug;
+		};
+		BDF4CCC32B11D7390046A6A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6F12F430F3330F8E1D4C63 /* Pods-BlinkBox-BlinkBoxUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W9AMGXAM7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tushar.BlinkBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlinkBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF4CC892B11D7380046A6A7 /* Build configuration list for PBXProject "BlinkBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4CCB92B11D7390046A6A7 /* Debug */,
+				BDF4CCBA2B11D7390046A6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4CCBB2B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "BlinkBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4CCBC2B11D7390046A6A7 /* Debug */,
+				BDF4CCBD2B11D7390046A6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4CCBE2B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "BlinkBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4CCBF2B11D7390046A6A7 /* Debug */,
+				BDF4CCC02B11D7390046A6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF4CCC12B11D7390046A6A7 /* Build configuration list for PBXNativeTarget "BlinkBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF4CCC22B11D7390046A6A7 /* Debug */,
+				BDF4CCC32B11D7390046A6A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDF4CC9A2B11D7380046A6A7 /* VasundharaTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDF4CC9B2B11D7380046A6A7 /* VasundharaTask.xcdatamodel */,
+			);
+			currentVersion = BDF4CC9B2B11D7380046A6A7 /* VasundharaTask.xcdatamodel */;
+			path = VasundharaTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BDF4CC862B11D7380046A6A7 /* Project object */;
+}
